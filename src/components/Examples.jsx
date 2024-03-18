@@ -27,6 +27,9 @@ export default function Examples() {
     <>
       <Section title="Examples" id="examples">
         <Tabs
+          // ButtonsContainer="menu" - if we put in Tabs Containet ButtonsContainer = "menu" we do not need to add the this line
+          // to be able to chose the type of element that we want to put our buttons in :D
+          // we are transfering this information top the Tabs Component
           buttons={
             <>
               <TabButton
